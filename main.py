@@ -75,9 +75,9 @@ def show_all():
         return {}
     else:
         return users
-
+#"good bye", "close", "exit" по будь-якій з цих команд бот завершує свою роботу після того, як виведе у консоль "Good bye!".
 def exit_commands():
-    return "Goodbye!"
+    return "Good bye!"
 
 #Функції обробники команд — набір функцій, які ще називають handler, 
 # вони відповідають за безпосереднє виконання команд.
